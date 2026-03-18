@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu principal</title>
+        <link rel="stylesheet" href="../Css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Vista/Productos.html">Productos</a></li>
+                    <li><a href="../Vista/QuienesSomos.html">Quienes somos</a></li>
+                    <li><a href="../Vista/Ubicacion.html">Ubicacion</a></li>
+                    <li><a href="../Vista/Contactenos.html" class="activo">Contactenos</a></li>
+                </ul>
+            </nav>
+       
+        </header>
+             <section>
+                
+               <form>
+                    <table width="600" border="0" align="center">
+                        <tr>
+                            <th colspan="2">Contactenos</th>
+
+                        </tr>
+                        <tr>
+                            <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="200">Nombre:</td>
+                            <td width="400"><input type="text" name="nombre" id="nombre"
+                                maxlength="40" placeholder="Nombre" class="caja"></td>
+                        </tr>
+                        <tr>
+                            <td width="200">Correo:</td>
+                            <td width="400"><input type="email" name="correo" id="correo"
+                                maxlength="40" placeholder="Correo" class="caja"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="ciudad">Ciudad:</label></td>
+                            <td><select name="ciudad" id="ciudad">
+                                    <option value="1">Medellin</option>
+                                    <option value="2">Bogota</option>
+                                    <option value="3">Cali</option>
+                                    <option value="4">Barranquilla</option>
+                                </select></td>
+                        </tr>
+                        <tr> 
+                            <td colspan="2">&nbsp;</td>
+                            </tr>
+                        <tr>
+                            <td colspan="2" align="right">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpiar">
+                        </td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+           
+            <footer>
+                <p>contactenos</p>
+                <p>direccion: Medellin - Antioquia</p>
+                <p>telefono: 320 733 9975</p>
+                <p>todos los derechos reservados</p>
+            </footer>
+    </body>
+</html>
